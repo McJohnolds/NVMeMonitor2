@@ -1,11 +1,19 @@
-Overlay that provides realtime Drive name (model name actually), with Temperature and 70 degree text flashing warning (72 degree for MP700 PRO XT), with additional SMART alerting if triggered.
+About NVMe Monitor
+NVMe Monitor is a minimalist, always-on-top Windows overlay designed for PC enthusiasts who want to keep a close eye on their storage hardware. Built with C# and WPF, it interfaces directly with hardware sensors to ensure your high-speed Gen 4 and Gen 5 NVMe drives operate safely without cluttering your screen.
 
-Code made with help of Google Gemini.
+Key Features:
 
-Decided to make this app because of a failed 4TB nvme ssd. Windows was not succesful at logging these problems.
+Real-Time Thermal Tracking: Polls drive temperatures every second.
 
-This is just the beginning of this project for me.  Unsure if I am duplicating someone elses  work, but wanted to publish something I found useful for myself.
+Smart Threshold Alerts: Text automatically flashes red when drives approach critical thermal limits (Customized out-of-the-box for high-end drives like the Corsair MP700 PRO XT).
 
-Welcome to feedback or ideas on what to add next.
+S.M.A.R.T. Health Integration: Quietly monitors drive health in the background. It dynamically expands to show a yellow warning only if drive life drops below 90% or if a critical hardware fault is detected.
 
-Thanks
+Unobtrusive UI: A borderless, draggable, and transparent overlay that stays out of your way while gaming or working.
+
+Customizable: Includes a right-click settings menu to adjust widget transparency on the fly and test visual alarms using a built-in Demo Mode.
+
+Fully Portable: Packaged as a single, self-contained executable. No installation required.
+
+
+*Built with help from Google Gemini*
