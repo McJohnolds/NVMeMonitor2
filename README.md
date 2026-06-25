@@ -1,4 +1,4 @@
-Overlay that provides realtime Drive name (model name actually), with Tempature and 70 degree text flashing warning (72 degree for MP700 PRO XT), with additional SMART alerting if triggered.
+Overlay that provides realtime Drive name (model name actually), with Temperature and 70 degree text flashing warning (72 degree for MP700 PRO XT), with additional SMART alerting if triggered.
 
 Code made with help of Google Gemini.
 
