@@ -1,0 +1,32 @@
+﻿<Window x:Class="NVMeMonitor2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="NVMe Temp" SizeToContent="WidthAndHeight"
+        WindowStyle="None" AllowsTransparency="True" Background="Transparent"
+        Topmost="True" ShowInTaskbar="False" MouseLeftButtonDown="Window_MouseLeftButtonDown"
+        Opacity="0.5">
+
+    <Grid Margin="10">
+        <Grid.ContextMenu>
+            <ContextMenu>
+                <MenuItem Header="Exit Monitor" Click="MenuExit_Click"/>
+            </ContextMenu>
+        </Grid.ContextMenu>
+
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+
+            <TextBlock x:Name="TempText" Text="Loading..." Foreground="White" FontSize="16" FontWeight="Bold" TextAlignment="Center">
+                <TextBlock.Effect>
+                    <DropShadowEffect Color="Black" BlurRadius="4" ShadowDepth="2" Opacity="1.0"/>
+                </TextBlock.Effect>
+            </TextBlock>
+
+            <TextBlock Text="(Right-click text for options)" Foreground="White" FontSize="10" FontStyle="Italic" TextAlignment="Center" Margin="0,4,0,0" Opacity="0.8">
+                <TextBlock.Effect>
+                    <DropShadowEffect Color="Black" BlurRadius="4" ShadowDepth="2" Opacity="1.0"/>
+                </TextBlock.Effect>
+            </TextBlock>
+
+        </StackPanel>
+    </Grid>
+</Window>
