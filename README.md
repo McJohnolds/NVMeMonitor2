@@ -1,4 +1,5 @@
 About NVMe Monitor
+
 NVMe Monitor is an intelligent, always-on-top Windows overlay designed for PC enthusiasts who demand precision hardware telemetry without the screen clutter. Built with C# and WPF, it interfaces directly with motherboard sensor controllers to provide real-time thermal and health data for your NVMe and SATA storage.
 
 Unlike standard monitors, NVMe Monitor learns your specific hardware configuration and adapts to it.
